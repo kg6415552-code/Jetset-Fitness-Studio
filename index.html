@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+      <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -9,102 +9,128 @@
 
 <body>
 
-<header>
+<header class="header">
   <h1>JetSet Fitness Studio</h1>
   <nav>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#trainers">Trainers</a></li>
-      <li><a href="#pricing">Pricing</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+    <a href="#home">Home</a>
+    <a href="#pricing">Plans</a>
+    <a href="#trainers">Coaches</a>
+    <a href="#contact">Contact</a>
   </nav>
 </header>
 
 <section id="home" class="hero">
   <h2>Train Hard. Stay Fit. Live Strong.</h2>
-  <p>Your journey to a healthier lifestyle starts here at JetSet Fitness Studio.</p>
-  <button onclick="joinNow()">Join Now</button>
+  <p>Premium fitness experience in Gapan City</p>
+  <a href="https://www.facebook.com/jetsetfitnessstudio" target="_blank" class="btn">
+    Visit Our Facebook
+  </a>
 </section>
 
-<section id="about">
-  <h2>About Us</h2>
-  <p>
-    JetSet Fitness Studio is your ultimate fitness destination. We offer modern equipment,
-    expert trainers, and a supportive environment to help you achieve your goals.
-  </p>
-</section>
-
-<section id="services">
-  <h2>Our Services</h2>
-  <div class="cards">
+<section id="trainers" class="section">
+  <h2>Elite Coaches</h2>
+  <div class="grid">
     <div class="card">
-      <h3>Personal Training</h3>
-      <p>One-on-one coaching tailored to your fitness goals.</p>
+      <h3>Coach Ben</h3>
+      <p>Bodybuilding Specialist</p>
     </div>
     <div class="card">
-      <h3>Group Classes</h3>
-      <p>Zumba, HIIT, Yoga, and more in a fun group setting.</p>
-    </div>
-    <div class="card">
-      <h3>Nutrition Coaching</h3>
-      <p>Healthy meal planning and lifestyle guidance.</p>
+      <h3>Coach Rona</h3>
+      <p>Women Physique Expert</p>
     </div>
   </div>
 </section>
 
-<section id="trainers">
-  <h2>Meet Our Trainers</h2>
-  <div class="cards">
-    <div class="card">
-      <h3>Coach Alex</h3>
-      <p>Strength & Conditioning Specialist</p>
+<!-- ✅ PREMIUM BENEFITS MOVED HERE -->
+<section class="section dark">
+  <h2>Premium Benefits</h2>
+  <ul class="benefits">
+    <li>Air-conditioned and clean environment</li>
+    <li>Machines sanitized after every use</li>
+    <li>High-end equipment and functional area</li>
+    <li>Shower with hot & cold water + locker use</li>
+    <li>Trackable progress with InBody scan</li>
+  </ul>
+</section>
+
+<section id="pricing" class="section dark">
+  <h2>Smart Choice Comparison</h2>
+  <p>Choose the plan that fits your goals and lifestyle</p>
+
+  <!-- ✅ MEMBERSHIP FIRST -->
+  <h3>Membership Plans</h3>
+  <div class="grid">
+    <div class="card highlight">
+      <h3>1 Month</h3>
+      <p>₱3,000</p>
     </div>
     <div class="card">
-      <h3>Coach Mia</h3>
-      <p>Yoga & Wellness Coach</p>
+      <h3>6 Months</h3>
+      <p>₱2,400/month</p>
+      <p>Total ₱14,400</p>
     </div>
     <div class="card">
-      <h3>Coach Ryan</h3>
-      <p>HIIT & Cardio Expert</p>
+      <h3>12 Months</h3>
+      <p>₱2,250/month</p>
+      <p>Total ₱27,000</p>
     </div>
+  </div>
+
+  <h3>Lifetime Membership</h3>
+  <div class="card highlight">
+    <p>₱3,000</p>
+    <p>No expiration • No renewals</p>
+  </div>
+
+  <!-- ✅ GYM ACCESS AFTER -->
+  <h3>Gym Access (No Membership Required)</h3>
+  <div class="grid">
+    <div class="card">
+      <p>Walk-in</p>
+      <h3>₱500</h3>
+    </div>
+    <div class="card">
+      <p>Walk-in + Coaching</p>
+      <h3>₱1,200</h3>
+    </div>
+  </div>
+
+</section>
+
+<section class="section">
+  <h2>Coaching Packages</h2>
+  <div class="grid">
+    <div class="card">₱4,000 – 6 Sessions</div>
+    <div class="card">₱6,000 – 15 Sessions</div>
+    <div class="card">₱9,000 – Unlimited (1 Month)</div>
+    <div class="card">₱13,000 – Unlimited (2 Months)</div>
   </div>
 </section>
 
-<section id="pricing">
-  <h2>Membership Plans</h2>
-  <div class="cards">
-    <div class="card">
-      <h3>Basic</h3>
-      <p>₱999 / month</p>
-      <p>Gym access only</p>
-    </div>
-    <div class="card">
-      <h3>Standard</h3>
-      <p>₱1,499 / month</p>
-      <p>Gym + Group Classes</p>
-    </div>
-    <div class="card">
-      <h3>Premium</h3>
-      <p>₱2,499 / month</p>
-      <p>All access + Personal Training</p>
-    </div>
-  </div>
-</section>
+<section id="contact" class="section dark">
+  <h2>Visit Us</h2>
 
-<section id="contact">
-  <h2>Contact Us</h2>
-  <p>Email: jetsetfitness@email.com</p>
-  <p>Phone: +63 900 000 0000</p>
-  <p>Location: Zaragoza, Philippines</p>
+  <p><strong>Phone:</strong> 0917 309 2025</p>
+
+  <p><strong>Location:</strong><br>
+  2nd Floor, Sessions Bldg., Petron,<br>
+  Maharlika Highway, Gapan City</p>
+
+  <h3>Gym Hours</h3>
+  <p>Mon–Sat: 5:00 AM – 10:00 PM (Cut-off 8:30 PM)</p>
+  <p>Sunday: 10:00 AM – 7:00 PM (Cut-off 5:30 PM)</p>
+  <p class="tagline">More time, More flexibility, More convenience</p>
+
+  <iframe 
+    src="https://maps.google.com/maps?q=Sessions%20Building%20Gapan%20City&t=&z=15&ie=UTF8&iwloc=&output=embed"
+    class="map">
+  </iframe>
+
 </section>
 
 <footer>
-  <p>© 2026 JetSet Fitness Studio | All Rights Reserved</p>
+  <p>© 2026 JetSet Fitness Studio</p>
 </footer>
 
-<script src="script.js"></script>
 </body>
-</html>
+    </html>
