@@ -53,12 +53,16 @@ body {
 .overlay {
   background: rgba(0,0,0,0.7);
   height: 100%;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   text-align: center;
   padding: 20px;
+
+  gap: 10px; /* 🔥 THIS FIXES SPACING */
 }
 
 .hero h2 {
